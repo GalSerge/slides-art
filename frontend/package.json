@@ -1,0 +1,58 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@craco/craco": "^5.9.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.2",
+    "html-to-image": "^1.11.11",
+    "react": "^18.2.0",
+    "react-apexcharts": "",
+    "react-best-gradient-color-picker": "^3.0.7",
+    "react-bootstrap": "^2.10.0",
+    "react-color": "2.19.3",
+    "react-dom": "^18.2.0",
+    "react-full-screen": "1.1.1",
+    "react-qr-code": "^2.0.12",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "^5.0.1",
+    "react-use-websocket": "^4.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@*": [
+        "./src/*"
+      ]
+    }
+  }
+}

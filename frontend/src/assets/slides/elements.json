@@ -1,0 +1,49 @@
+{
+    "title": {
+        "meta": {
+            "fontSize": "36em",
+            "color": "rgba(0,0,0,1)"
+        },
+        "text": "Заголовок слайда"
+    },
+    "subtitle": {
+        "meta": {
+            "fontSize": "28em",
+            "color": "rgba(0,0,0,1)"
+        },
+        "text": "Подзаголовок"
+    },
+    "text": {
+        "meta": {
+            "fontSize": "24em",
+            "color": "rgba(0,0,0,1)"
+        },
+        "text": "Текст слайда"
+    },
+    "img": {
+        "meta": {},
+        "file": ""
+    },
+    "list": [],
+    "options": [
+        {
+            "text": "Вариант 1",
+            "votes": 0,
+            "color": "rgba(0,0,255,1)"
+        },
+        {
+            "text": "Вариант 2",
+            "votes": 0,
+            "color": "rgba(0,255,0,1)"
+        }
+    ],
+    "backgroundColor": {
+        "style": {
+            "backgroundColor": "rgba(255,255,255,1)"
+        }
+    },
+    "backgroundFile": {
+        "style": "",
+        "file": ""
+    }
+}
